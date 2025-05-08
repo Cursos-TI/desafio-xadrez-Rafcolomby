@@ -6,10 +6,9 @@
 
 int main() {
     int i; // Variável de controle para loops
-
-    // ----------------------------
+    
     // Movimento da TORRE
-    // ----------------------------
+
     printf("Movimento da Torre:\n");
     for(i = 0; i < 5; i++) {
         printf("Direita\n");
@@ -17,9 +16,8 @@ int main() {
 
     printf("\n");
 
-    // ----------------------------
-    // Movimento do BISPO
-    // ----------------------------
+        // Movimento do BISPO
+    
     printf("Movimento do Bispo:\n");
     int j = 0;
     while(j < 5) {
@@ -29,9 +27,8 @@ int main() {
 
     printf("\n");
 
-    // ----------------------------
-    // Movimento da RAINHA
-    // ----------------------------
+        // Movimento da RAINHA
+    
     printf("Movimento da Rainha:\n");
     int k = 0;
     do {
@@ -41,14 +38,10 @@ int main() {
 
     printf("\n");
 
-    // ----------------------------
-    // Movimento do CAVALO
-    // ----------------------------
-    // O Cavalo se move em forma de "L":
+        // Movimento do CAVALO
+     // O Cavalo se move em forma de "L":
     // Neste caso: 2 casas para BAIXO e 1 para a ESQUERDA
-    // Usamos um FOR externo e um WHILE interno
-
-    printf("Movimento do Cavalo:\n");
+     printf("Movimento do Cavalo:\n");
 
     // Loop externo para o movimento principal (pode ser 1 vez só)
     for(int m = 0; m < 1; m++) {
@@ -62,13 +55,6 @@ int main() {
         // Uma casa para a esquerda
         printf("Esquerda\n");
     }
-
-    return 0;
-}
-
-
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
 
     return 0;
 }
